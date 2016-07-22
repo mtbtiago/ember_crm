@@ -1,2 +1,3 @@
 h2 template rendered
 button click='more_info' More info ...
+p = link-to 'index' | index

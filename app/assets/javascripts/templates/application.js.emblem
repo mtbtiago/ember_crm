@@ -1,3 +1,10 @@
-h1 Hello World
-= link-to 'about' | about us
-outlet
+header
+  article
+    .logo
+      h1
+        a href="#" Ember CRM
+
+section#main
+  = outlet
+
+footer

@@ -1,0 +1,19 @@
+leads.js.emblem
+article#leads
+  h1 Leads
+  ul
+    each lead in controller
+      link-to 'lead' lead tagName="li"
+        lead.fullName
+
+outlet
+
+/// handlebars version leads.hbs
+/ <article id="leads">
+/   <h1>Leads</h1>
+/   <ul>
+/     {{#each lead in controller}}
+/       <li>{{lead.fullName}}</li>
+/     {{/each}}
+/   </ul>
+/ </article>
